@@ -1,5 +1,5 @@
 //
-//  EmailSignInViewController.swift
+//  SignUpViewController.swift
 //  Tasmeam
 //
 //  Created by Ahmed Elbasha on 9/12/18.
@@ -8,28 +8,15 @@
 
 import UIKit
 
-class EmailSignInViewController: UIViewController {
+class SignUpViewController: UIViewController {
 
-    @IBOutlet weak var usernameTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    
-    @IBAction func cancelButtonPressed(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
-    @IBAction func signInButtonPressed(_ sender: Any) {
-    }
-    
-    @IBAction func signUpButtonPressed(_ sender: Any) {
-    }
-    
+
     /*
     // MARK: - Navigation
 

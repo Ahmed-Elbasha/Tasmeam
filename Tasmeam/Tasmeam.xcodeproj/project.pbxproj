@@ -14,6 +14,7 @@
 		7E42762A2148085D0006A054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4276292148085D0006A054 /* Assets.xcassets */; };
 		7E42762D2148085D0006A054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E42762B2148085D0006A054 /* LaunchScreen.storyboard */; };
 		7E7A9EED214952360045FDF1 /* EmailSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A9EEC214952360045FDF1 /* EmailSignInViewController.swift */; };
+		7E7A9EEF214967380045FDF1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A9EEE214967380045FDF1 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7E42762C2148085D0006A054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E42762E2148085D0006A054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E7A9EEC214952360045FDF1 /* EmailSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSignInViewController.swift; sourceTree = "<group>"; };
+		7E7A9EEE214967380045FDF1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				7E427621214808580006A054 /* AuthenticationViewController.swift */,
 				7E7A9EEC214952360045FDF1 /* EmailSignInViewController.swift */,
+				7E7A9EEE214967380045FDF1 /* SignUpViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				7E7A9EED214952360045FDF1 /* EmailSignInViewController.swift in Sources */,
 				7E427620214808580006A054 /* AppDelegate.swift in Sources */,
 				7E427628214808590006A054 /* Tasmeam.xcdatamodeld in Sources */,
+				7E7A9EEF214967380045FDF1 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
