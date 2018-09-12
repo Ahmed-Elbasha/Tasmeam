@@ -12,10 +12,18 @@ class SignUpViewController: UIViewController {
 
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var confirmButton: UIButton!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        confirmButton.backgroundColor = UIColor.white
+        confirmButton.layer.cornerRadius = 26
+        confirmButton.setTitleColor(UIColor.orange, for: .normal)
+        confirmButton.layer.borderWidth = 1
+        confirmButton.layer.borderColor = UIColor.white.cgColor
         // Do any additional setup after loading the view.
     }
     

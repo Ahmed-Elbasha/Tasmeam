@@ -244,6 +244,8 @@
                     </view>
                     <connections>
                         <outlet property="passwordTextField" destination="DgV-cj-Shs" id="swk-tO-V96"/>
+                        <outlet property="signInButton" destination="19Q-op-p6l" id="WRr-Vb-VW7"/>
+                        <outlet property="signUpButton" destination="4iL-1N-Zf8" id="gY5-2y-B4B"/>
                         <outlet property="usernameTextField" destination="H17-ho-Ypz" id="uF4-b2-fTa"/>
                     </connections>
                 </viewController>
@@ -311,7 +313,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                         <state key="normal" title="Confirm">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="confirmButtonPressed:" destination="bqN-Tn-mfI" eventType="touchUpInside" id="za3-m9-2C3"/>
@@ -363,6 +365,7 @@
                         <viewLayoutGuide key="safeArea" id="W99-fL-aRr"/>
                     </view>
                     <connections>
+                        <outlet property="confirmButton" destination="TcU-P0-jy4" id="fFz-OQ-OId"/>
                         <outlet property="passwordTextField" destination="z5q-K7-dVf" id="3vT-Sb-dho"/>
                         <outlet property="usernameTextField" destination="PHP-SY-6gH" id="HV4-Lc-IYm"/>
                     </connections>
@@ -392,6 +395,6 @@
         <image name="tasmeamLogo" width="566" height="590"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="avF-7a-abk"/>
+        <segue reference="FaZ-ij-CeE"/>
     </inferredMetricsTieBreakers>
 </document>
