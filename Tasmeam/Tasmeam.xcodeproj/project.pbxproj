@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7E427620214808580006A054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42761F214808580006A054 /* AppDelegate.swift */; };
-		7E427622214808580006A054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E427621214808580006A054 /* ViewController.swift */; };
+		7E427622214808580006A054 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E427621214808580006A054 /* AuthenticationViewController.swift */; };
 		7E427625214808590006A054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E427623214808580006A054 /* Main.storyboard */; };
 		7E427628214808590006A054 /* Tasmeam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E427626214808590006A054 /* Tasmeam.xcdatamodeld */; };
 		7E42762A2148085D0006A054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4276292148085D0006A054 /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		7E42761C214808580006A054 /* Tasmeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasmeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E42761F214808580006A054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E427621214808580006A054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E427621214808580006A054 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		7E427624214808580006A054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E427627214808590006A054 /* Tasmeam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tasmeam.xcdatamodel; sourceTree = "<group>"; };
 		7E4276292148085D0006A054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				7E42761F214808580006A054 /* AppDelegate.swift */,
-				7E427621214808580006A054 /* ViewController.swift */,
+				7E427621214808580006A054 /* AuthenticationViewController.swift */,
 				7E427623214808580006A054 /* Main.storyboard */,
 				7E4276292148085D0006A054 /* Assets.xcassets */,
 				7E42762B2148085D0006A054 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E427622214808580006A054 /* ViewController.swift in Sources */,
+				7E427622214808580006A054 /* AuthenticationViewController.swift in Sources */,
 				7E427620214808580006A054 /* AppDelegate.swift in Sources */,
 				7E427628214808590006A054 /* Tasmeam.xcdatamodeld in Sources */,
 			);

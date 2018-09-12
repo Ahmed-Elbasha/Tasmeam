@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AuthenticationViewController.swift
 //  Tasmeam
 //
 //  Created by Ahmed Elbasha on 9/11/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AuthenticationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
