@@ -41,6 +41,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="loginWithFacebookButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Okp-aA-B1i"/>
+                                                    <segue destination="wmJ-BS-62C" kind="show" identifier="FromLoginWithFacebookToHomeVC" id="rDr-aK-1TL"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs6-s7-jdD">
@@ -52,6 +53,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="loginWithGooglePlusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nvv-Lp-e0W"/>
+                                                    <segue destination="wmJ-BS-62C" kind="show" identifier="FromLoginWithGooglePlusToHomeVC" id="avF-7a-abk"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4B-ji-k4g">
@@ -203,6 +205,7 @@
                                         </state>
                                         <connections>
                                             <action selector="signInButtonPressed:" destination="1d6-j3-Jsv" eventType="touchUpInside" id="U1P-Rn-ZU5"/>
+                                            <segue destination="wmJ-BS-62C" kind="show" identifier="FromSignInByEmailToHomeVC" id="FtJ-fg-yY0"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4iL-1N-Zf8">
@@ -312,6 +315,7 @@
                                         </state>
                                         <connections>
                                             <action selector="confirmButtonPressed:" destination="bqN-Tn-mfI" eventType="touchUpInside" id="za3-m9-2C3"/>
+                                            <segue destination="wmJ-BS-62C" kind="show" identifier="FromSignUpToHomeVC" id="FaZ-ij-CeE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -367,9 +371,27 @@
             </objects>
             <point key="canvasLocation" x="1640.8" y="132.68365817091455"/>
         </scene>
+        <!--Home View Controller-->
+        <scene sceneID="7s7-TK-k90">
+            <objects>
+                <viewController id="wmJ-BS-62C" customClass="HomeViewController" customModule="Tasmeam" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1hv-v5-z1A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BXb-xL-vfo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0OW-tk-yKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2484" y="-381"/>
+        </scene>
     </scenes>
     <resources>
         <image name="emailIcon" width="25" height="16"/>
         <image name="tasmeamLogo" width="566" height="590"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="avF-7a-abk"/>
+    </inferredMetricsTieBreakers>
 </document>
