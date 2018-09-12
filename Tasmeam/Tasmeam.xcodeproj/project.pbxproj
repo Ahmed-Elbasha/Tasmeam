@@ -17,6 +17,7 @@
 		7E7A9EEF214967380045FDF1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A9EEE214967380045FDF1 /* SignUpViewController.swift */; };
 		7E7A9EF1214989A20045FDF1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A9EF0214989A20045FDF1 /* HomeViewController.swift */; };
 		7E7A9EF32149B1640045FDF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E7A9EF22149B1640045FDF1 /* GoogleService-Info.plist */; };
+		7E7A9EF62149B4490045FDF1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A9EF52149B4490045FDF1 /* DataService.swift */; };
 		923DD47AB3A3AB8CECF1FD2F /* libPods-Tasmeam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1616CBBE0DF30E1F47D15A25 /* libPods-Tasmeam.a */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		7E7A9EEE214967380045FDF1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		7E7A9EF0214989A20045FDF1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7E7A9EF22149B1640045FDF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E7A9EF52149B4490045FDF1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		E9B15180D9D0C747B6643E88 /* Pods-Tasmeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tasmeam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tasmeam/Pods-Tasmeam.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 		7E42761E214808580006A054 /* Tasmeam */ = {
 			isa = PBXGroup;
 			children = (
+				7E7A9EF42149B3B30045FDF1 /* Services */,
 				7E7A9EE9214951AA0045FDF1 /* Controller */,
 				7E42761F214808580006A054 /* AppDelegate.swift */,
 				7E427623214808580006A054 /* Main.storyboard */,
@@ -100,6 +103,14 @@
 				7E7A9EF0214989A20045FDF1 /* HomeViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E7A9EF42149B3B30045FDF1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7E7A9EF52149B4490045FDF1 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		B74AD4AA20EF9AFAF7A97489 /* Pods */ = {
@@ -206,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E427622214808580006A054 /* AuthenticationViewController.swift in Sources */,
+				7E7A9EF62149B4490045FDF1 /* DataService.swift in Sources */,
 				7E7A9EED214952360045FDF1 /* EmailSignInViewController.swift in Sources */,
 				7E427620214808580006A054 /* AppDelegate.swift in Sources */,
 				7E427628214808590006A054 /* Tasmeam.xcdatamodeld in Sources */,
