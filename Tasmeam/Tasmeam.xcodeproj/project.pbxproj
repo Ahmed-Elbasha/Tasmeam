@@ -13,6 +13,7 @@
 		7E427628214808590006A054 /* Tasmeam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E427626214808590006A054 /* Tasmeam.xcdatamodeld */; };
 		7E42762A2148085D0006A054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4276292148085D0006A054 /* Assets.xcassets */; };
 		7E42762D2148085D0006A054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E42762B2148085D0006A054 /* LaunchScreen.storyboard */; };
+		7E7A9EED214952360045FDF1 /* EmailSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7A9EEC214952360045FDF1 /* EmailSignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7E4276292148085D0006A054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E42762C2148085D0006A054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E42762E2148085D0006A054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7A9EEC214952360045FDF1 /* EmailSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,8 @@
 		7E42761E214808580006A054 /* Tasmeam */ = {
 			isa = PBXGroup;
 			children = (
+				7E7A9EE9214951AA0045FDF1 /* Controller */,
 				7E42761F214808580006A054 /* AppDelegate.swift */,
-				7E427621214808580006A054 /* AuthenticationViewController.swift */,
 				7E427623214808580006A054 /* Main.storyboard */,
 				7E4276292148085D0006A054 /* Assets.xcassets */,
 				7E42762B2148085D0006A054 /* LaunchScreen.storyboard */,
@@ -65,6 +67,15 @@
 				7E427626214808590006A054 /* Tasmeam.xcdatamodeld */,
 			);
 			path = Tasmeam;
+			sourceTree = "<group>";
+		};
+		7E7A9EE9214951AA0045FDF1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E427621214808580006A054 /* AuthenticationViewController.swift */,
+				7E7A9EEC214952360045FDF1 /* EmailSignInViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E427622214808580006A054 /* AuthenticationViewController.swift in Sources */,
+				7E7A9EED214952360045FDF1 /* EmailSignInViewController.swift in Sources */,
 				7E427620214808580006A054 /* AppDelegate.swift in Sources */,
 				7E427628214808590006A054 /* Tasmeam.xcdatamodeld in Sources */,
 			);

@@ -15,6 +15,13 @@ class AuthenticationViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func loginWithFacebookButtonPressed(_ sender: Any) {
+    }
+    
+    @IBAction func loginWithGooglePlusButtonPressed(_ sender: Any) {
+    }
+    
+    @IBAction func loginByEmailButtonPressed(_ sender: Any) {
+    }
 }
 

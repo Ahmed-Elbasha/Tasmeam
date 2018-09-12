@@ -39,6 +39,9 @@
                                                 <state key="normal" title="LOGIN WITH FACEBOOK">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="loginWithFacebookButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Okp-aA-B1i"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs6-s7-jdD">
                                                 <rect key="frame" x="0.0" y="154" width="295" height="77"/>
@@ -47,6 +50,9 @@
                                                 <state key="normal" title="LOGIN WITH G+">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="loginWithGooglePlusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nvv-Lp-e0W"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4B-ji-k4g">
                                                 <rect key="frame" x="0.0" y="231" width="295" height="77"/>
@@ -64,6 +70,10 @@
                                         <state key="normal" title=" By Email" image="emailIcon">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginByEmailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6YJ-fH-1TH"/>
+                                            <segue destination="1d6-j3-Jsv" kind="show" id="sO9-ND-UNt"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.88235294117647056" green="0.38039215686274508" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
@@ -97,10 +107,10 @@
             </objects>
             <point key="canvasLocation" x="132" y="132.68365817091455"/>
         </scene>
-        <!--View Controller-->
+        <!--Email Sign In View Controller-->
         <scene sceneID="dJQ-sy-K6H">
             <objects>
-                <viewController id="1d6-j3-Jsv" sceneMemberID="viewController">
+                <viewController id="1d6-j3-Jsv" customClass="EmailSignInViewController" customModule="Tasmeam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pcz-qd-Rzr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,7 +130,7 @@
                                 </state>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="X7o-Nd-oGO">
-                                <rect key="frame" x="110" y="233" width="154" height="50"/>
+                                <rect key="frame" x="110" y="268" width="154" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19Q-op-p6l">
                                         <rect key="frame" x="0.0" y="0.0" width="64" height="50"/>
