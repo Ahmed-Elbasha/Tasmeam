@@ -270,6 +270,7 @@
                                     <color key="titleColor" red="0.88235294119999996" green="0.3803921569" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="cancelButtonPressed:" destination="bqN-Tn-mfI" eventType="touchUpInside" id="Aru-da-6EI"/>
                                     <action selector="cancelButtonPressed:" destination="1d6-j3-Jsv" eventType="touchUpInside" id="uiD-ER-ANf"/>
                                 </connections>
                             </button>
@@ -309,6 +310,9 @@
                                         <state key="normal" title="Confirm">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="confirmButtonPressed:" destination="bqN-Tn-mfI" eventType="touchUpInside" id="za3-m9-2C3"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.88235294119999996" green="0.3803921569" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
@@ -354,6 +358,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="W99-fL-aRr"/>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="z5q-K7-dVf" id="3vT-Sb-dho"/>
+                        <outlet property="usernameTextField" destination="PHP-SY-6gH" id="HV4-Lc-IYm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p9A-8U-O0a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
