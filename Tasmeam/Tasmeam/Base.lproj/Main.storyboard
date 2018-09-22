@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wmJ-BS-62C">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -41,7 +41,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="loginWithFacebookButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Okp-aA-B1i"/>
-                                                    <segue destination="wmJ-BS-62C" kind="show" identifier="FromLoginWithFacebookToHomeVC" id="rDr-aK-1TL"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs6-s7-jdD">
@@ -53,7 +52,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="loginWithGooglePlusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nvv-Lp-e0W"/>
-                                                    <segue destination="wmJ-BS-62C" kind="show" identifier="FromLoginWithGooglePlusToHomeVC" id="avF-7a-abk"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4B-ji-k4g">
@@ -205,7 +203,6 @@
                                         </state>
                                         <connections>
                                             <action selector="signInButtonPressed:" destination="1d6-j3-Jsv" eventType="touchUpInside" id="U1P-Rn-ZU5"/>
-                                            <segue destination="wmJ-BS-62C" kind="show" identifier="FromSignInByEmailToHomeVC" id="FtJ-fg-yY0"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4iL-1N-Zf8">
@@ -229,7 +226,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Gj4-J2-xrO" firstAttribute="centerY" secondItem="Pcz-qd-Rzr" secondAttribute="centerY" id="2Zp-T0-w0N"/>
-                            <constraint firstItem="DPh-i7-24a" firstAttribute="top" secondItem="Pcz-qd-Rzr" secondAttribute="top" constant="20" id="4jz-Jd-Vbx"/>
+                            <constraint firstItem="DPh-i7-24a" firstAttribute="top" secondItem="ieb-Ps-p28" secondAttribute="top" id="4jz-Jd-Vbx"/>
                             <constraint firstItem="YgP-7U-KV8" firstAttribute="bottom" secondItem="ieb-Ps-p28" secondAttribute="bottom" id="5Tp-Ga-mTq"/>
                             <constraint firstItem="Gj4-J2-xrO" firstAttribute="centerX" secondItem="Pcz-qd-Rzr" secondAttribute="centerX" id="NiP-MO-PzO"/>
                             <constraint firstItem="X7o-Nd-oGO" firstAttribute="centerX" secondItem="Pcz-qd-Rzr" secondAttribute="centerX" id="Z5G-Fu-SS5"/>
@@ -329,7 +326,6 @@
                                         </state>
                                         <connections>
                                             <action selector="confirmButtonPressed:" destination="bqN-Tn-mfI" eventType="touchUpInside" id="za3-m9-2C3"/>
-                                            <segue destination="wmJ-BS-62C" kind="show" identifier="FromSignUpToHomeVC" id="FaZ-ij-CeE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -383,6 +379,7 @@
                     </view>
                     <connections>
                         <outlet property="confirmButton" destination="TcU-P0-jy4" id="fFz-OQ-OId"/>
+                        <outlet property="displayNameTextField" destination="ySF-CB-ueR" id="gbx-QH-26M"/>
                         <outlet property="passwordTextField" destination="z5q-K7-dVf" id="3vT-Sb-dho"/>
                         <outlet property="usernameTextField" destination="PHP-SY-6gH" id="HV4-Lc-IYm"/>
                     </connections>
@@ -411,7 +408,4 @@
         <image name="emailIcon" width="25" height="16"/>
         <image name="tasmeamLogo" width="271.67999267578125" height="283.44000244140625"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="FaZ-ij-CeE"/>
-    </inferredMetricsTieBreakers>
 </document>

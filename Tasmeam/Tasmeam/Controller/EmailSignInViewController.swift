@@ -43,6 +43,15 @@ class EmailSignInViewController: UIViewController {
     }
     
     @IBAction func signInButtonPressed(_ sender: Any) {
+        AuthenticationService.instance.loginUser(withEmail: usernameTextField.text!, andPassword: passwordTextField.text!) { (success, loginError) in
+            if success {
+                self.dismiss(animated: true, completion: nil)
+                let emailSignInVC = self.storyboard?.instantiateViewController(withIdentifier: "EmailSignInViewController") as! EmailSignInViewController
+                self.present(emailSignInVC, animated: true, completion: nil)
+            } else {
+                return
+            }
+        }
     }
     
     @IBAction func signUpButtonPressed(_ sender: Any) {
