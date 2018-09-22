@@ -17,7 +17,23 @@ class EmailSignInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        // Optimization for signInButton shape.
+        signInButton.backgroundColor = UIColor.white
+        signInButton.layer.cornerRadius = 26
+        signInButton.setTitleColor(UIColor.orange, for: .normal)
+        signInButton.setTitleColor(UIColor.orange, for: .highlighted)
+        signInButton.layer.borderWidth = 1
+        signInButton.layer.borderColor = UIColor.white.cgColor
+        
+        // Optimization for signUpButton shape.
+        signUpButton.backgroundColor = UIColor.white
+        signUpButton.layer.cornerRadius = 26
+        signUpButton.setTitleColor(UIColor.orange, for: .normal)
+        signUpButton.setTitleColor(UIColor.orange, for: .highlighted)
+        signUpButton.layer.borderWidth = 1
+        signUpButton.layer.borderColor = UIColor.white.cgColor
+        
         // Do any additional setup after loading the view.
     }
     

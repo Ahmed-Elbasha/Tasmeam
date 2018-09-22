@@ -22,6 +22,7 @@ class SignUpViewController: UIViewController {
         confirmButton.backgroundColor = UIColor.white
         confirmButton.layer.cornerRadius = 26
         confirmButton.setTitleColor(UIColor.orange, for: .normal)
+        confirmButton.setTitleColor(UIColor.orange, for: .highlighted)
         confirmButton.layer.borderWidth = 1
         confirmButton.layer.borderColor = UIColor.white.cgColor
         // Do any additional setup after loading the view.

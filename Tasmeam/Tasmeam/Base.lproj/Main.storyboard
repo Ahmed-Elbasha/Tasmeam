@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.13.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.9"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,7 +12,7 @@
         <!--Authentication View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="AuthenticationViewController" customModule="Tasmeam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AuthenticationViewController" id="BYZ-38-t0r" customClass="AuthenticationViewController" customModule="Tasmeam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -112,7 +112,7 @@
         <!--Email Sign In View Controller-->
         <scene sceneID="dJQ-sy-K6H">
             <objects>
-                <viewController id="1d6-j3-Jsv" customClass="EmailSignInViewController" customModule="Tasmeam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EmailSignInViewController" id="1d6-j3-Jsv" customClass="EmailSignInViewController" customModule="Tasmeam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pcz-qd-Rzr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -194,13 +194,13 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="X7o-Nd-oGO">
-                                <rect key="frame" x="118" y="342" width="139" height="50"/>
+                                <rect key="frame" x="91.5" y="342" width="192" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19Q-op-p6l">
-                                        <rect key="frame" x="0.0" y="0.0" width="57" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="84" height="50"/>
                                         <color key="backgroundColor" red="0.88235294119999996" green="0.3803921569" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
-                                        <state key="normal" title="Sign In">
+                                        <state key="normal" title="   Sign In   ">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -209,10 +209,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4iL-1N-Zf8">
-                                        <rect key="frame" x="77" y="0.0" width="62" height="50"/>
+                                        <rect key="frame" x="104" y="0.0" width="88" height="50"/>
                                         <color key="backgroundColor" red="0.88235294119999996" green="0.3803921569" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
-                                        <state key="normal" title="Sign Up">
+                                        <state key="normal" title="   Sign Up   ">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -256,7 +256,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="2t7-KO-lm6">
             <objects>
-                <viewController id="bqN-Tn-mfI" customClass="SignUpViewController" customModule="Tasmeam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" id="bqN-Tn-mfI" customClass="SignUpViewController" customModule="Tasmeam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HIX-jW-EZc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -295,7 +295,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Uk-rP-WTS">
-                                        <rect key="frame" x="30" y="136" width="78" height="25"/>
+                                        <rect key="frame" x="30" y="139" width="78" height="25"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -306,8 +306,20 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Display Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8Y-S0-d0g">
+                                        <rect key="frame" x="26" y="189" width="96.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ySF-CB-ueR">
+                                        <rect key="frame" x="131" y="185" width="184" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TcU-P0-jy4">
-                                        <rect key="frame" x="130" y="183" width="94" height="50"/>
+                                        <rect key="frame" x="131" y="237" width="94" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="yS9-br-KRj"/>
                                         </constraints>
@@ -324,17 +336,22 @@
                                 <color key="backgroundColor" red="0.88235294119999996" green="0.3803921569" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="PHP-SY-6gH" firstAttribute="leading" secondItem="3jV-Y4-Gy8" secondAttribute="trailing" constant="8" id="03Q-8l-rJo"/>
-                                    <constraint firstItem="0Uk-rP-WTS" firstAttribute="top" secondItem="3jV-Y4-Gy8" secondAttribute="bottom" constant="21.5" id="2Lf-jM-Aks"/>
+                                    <constraint firstItem="0Uk-rP-WTS" firstAttribute="top" secondItem="3jV-Y4-Gy8" secondAttribute="bottom" constant="24.5" id="2Lf-jM-Aks"/>
                                     <constraint firstItem="PHP-SY-6gH" firstAttribute="centerY" secondItem="3jV-Y4-Gy8" secondAttribute="centerY" id="699-6Z-O2e"/>
-                                    <constraint firstItem="TcU-P0-jy4" firstAttribute="centerX" secondItem="oAA-Re-ghu" secondAttribute="centerX" constant="9.5" id="G4p-0N-Rd6"/>
+                                    <constraint firstItem="TcU-P0-jy4" firstAttribute="centerX" secondItem="oAA-Re-ghu" secondAttribute="centerX" constant="10.5" id="G4p-0N-Rd6"/>
                                     <constraint firstItem="PHP-SY-6gH" firstAttribute="centerX" secondItem="oAA-Re-ghu" secondAttribute="centerX" constant="54.5" id="Hhx-h2-4mO"/>
-                                    <constraint firstItem="TcU-P0-jy4" firstAttribute="centerX" secondItem="oAA-Re-ghu" secondAttribute="centerX" constant="9.5" id="LAR-Ub-LPF"/>
+                                    <constraint firstItem="TcU-P0-jy4" firstAttribute="centerX" secondItem="oAA-Re-ghu" secondAttribute="centerX" constant="10.5" id="LAR-Ub-LPF"/>
+                                    <constraint firstItem="E8Y-S0-d0g" firstAttribute="leading" secondItem="oAA-Re-ghu" secondAttribute="leading" constant="26" id="Nyh-Hr-oWd"/>
+                                    <constraint firstAttribute="trailing" secondItem="ySF-CB-ueR" secondAttribute="trailing" constant="20" id="QbA-ue-pQi"/>
                                     <constraint firstAttribute="trailing" secondItem="PHP-SY-6gH" secondAttribute="trailing" constant="22" id="TQ7-DQ-zso"/>
                                     <constraint firstItem="0Uk-rP-WTS" firstAttribute="leading" secondItem="oAA-Re-ghu" secondAttribute="leading" constant="30" id="YUw-iZ-b0Z"/>
                                     <constraint firstItem="3jV-Y4-Gy8" firstAttribute="leading" secondItem="oAA-Re-ghu" secondAttribute="leading" constant="30" id="Z6w-qc-HoU"/>
                                     <constraint firstItem="z5q-K7-dVf" firstAttribute="leading" secondItem="0Uk-rP-WTS" secondAttribute="trailing" constant="23" id="aB8-RW-EUT"/>
                                     <constraint firstItem="z5q-K7-dVf" firstAttribute="top" secondItem="PHP-SY-6gH" secondAttribute="bottom" constant="19" id="fQv-8I-mTF"/>
-                                    <constraint firstItem="TcU-P0-jy4" firstAttribute="top" secondItem="z5q-K7-dVf" secondAttribute="bottom" constant="17" id="gPk-Kf-Eus"/>
+                                    <constraint firstItem="ySF-CB-ueR" firstAttribute="top" secondItem="z5q-K7-dVf" secondAttribute="bottom" constant="19" id="j3G-Ua-NRv"/>
+                                    <constraint firstItem="ySF-CB-ueR" firstAttribute="leading" secondItem="E8Y-S0-d0g" secondAttribute="trailing" constant="8.5" id="oLj-jU-17i"/>
+                                    <constraint firstItem="E8Y-S0-d0g" firstAttribute="top" secondItem="0Uk-rP-WTS" secondAttribute="bottom" constant="25" id="v9f-cB-xzD"/>
+                                    <constraint firstItem="TcU-P0-jy4" firstAttribute="top" secondItem="ySF-CB-ueR" secondAttribute="bottom" constant="22" id="ywg-yA-u20"/>
                                     <constraint firstAttribute="trailing" secondItem="z5q-K7-dVf" secondAttribute="trailing" constant="22" id="zdA-xX-2m8"/>
                                 </constraints>
                             </view>
@@ -377,7 +394,7 @@
         <!--Home View Controller-->
         <scene sceneID="7s7-TK-k90">
             <objects>
-                <viewController id="wmJ-BS-62C" customClass="HomeViewController" customModule="Tasmeam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="wmJ-BS-62C" customClass="HomeViewController" customModule="Tasmeam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1hv-v5-z1A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -392,7 +409,7 @@
     </scenes>
     <resources>
         <image name="emailIcon" width="25" height="16"/>
-        <image name="tasmeamLogo" width="566" height="590"/>
+        <image name="tasmeamLogo" width="271.67999267578125" height="283.44000244140625"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="FaZ-ij-CeE"/>
