@@ -32,6 +32,11 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func confirmButtonPressed(_ sender: Any) {
+        AuthenticationService.instance.registerUser(withEmail: usernameTextField.text!, andPassword: passwordTextField.text!, andDisplayName: displayNameTextField.text!) { (success, signUpError) in
+            if success {
+                self.dismiss(animated: true, completion: nil)
+            }
+        }
     }
     /*
     // MARK: - Navigation
