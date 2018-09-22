@@ -22,6 +22,8 @@ class AuthenticationViewController: UIViewController {
     }
     
     @IBAction func loginByEmailButtonPressed(_ sender: Any) {
+        let emailSignInVC = storyboard?.instantiateViewController(withIdentifier: "EmailSignInViewController") as! EmailSignInViewController
+        self.present(emailSignInVC, animated: true, completion: nil)
     }
 }
 

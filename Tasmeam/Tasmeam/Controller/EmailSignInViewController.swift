@@ -55,6 +55,8 @@ class EmailSignInViewController: UIViewController {
     }
     
     @IBAction func signUpButtonPressed(_ sender: Any) {
+        let signUpVC = storyboard?.instantiateViewController(withIdentifier: "SignUpViewController") as! SignUpViewController
+        self.present(signUpVC, animated: true, completion: nil)
     }
     
     /*
